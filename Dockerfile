@@ -25,4 +25,4 @@ RUN chmod +x scripts/* \
  && pybabel compile -d locales -D bot
 
 ENTRYPOINT ["docker-entrypoint.sh"]
-CMD ["run-webhook"]
+CMD ["run-polling"]
